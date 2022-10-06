@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="calcu.js"></script>
+</head>
+<body>
+    <div id="main">
+        
+        <div class="calc">
+            <div class="output">
+                <input type="text" id="btn">
+            </div>
+
+                
+                    <button onclick="clr()" class="butt">Clear</button>
+                </div>
+                <div class="row">
+                    <button onclick="btnclick(7)" class="butt">7</button>
+                    <button onclick="btnclick(8)" class="butt">8</button>
+                    <button onclick="btnclick(9)" class="butt">9</button>
+                    <button onclick="btnclick('/')" class="butt">/</button>
+                </div>
+                <div class="row">
+                    <button onclick="btnclick(4)" class="butt">4</button>
+                    <button onclick="btnclick(5)" class="butt">5</button>
+                    <button onclick="btnclick(6)" class="butt">6</button>
+                    <button onclick="btnclick('*')" class="butt">*</button>
+                </div>
+                <div class="row">
+                    <button onclick="btnclick(1)" class="butt">1</button>
+                    <button onclick="btnclick(2)" class="butt">2</button>
+                    <button onclick="btnclick(3)" class="butt">3</button>
+                    <button onclick="btnclick('+')" class="butt">+</button>
+                </div>
+                <div class="row">
+                    <button onclick="btnclick('.')" class="butt">.</button>
+                    <button onclick="btnclick(0)" class="butt">0</button>
+                    <button onclick="btnclick('-')" class="butt">-</button>
+                    <button onclick="rel('=')" class="butt">=</button>
+                </div>
+
+            </div>
+
+</div>
+    
+</body>
+</html>
